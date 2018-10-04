@@ -19,7 +19,9 @@ print("PASSOU NO TESTE 1")
 
 # criar os objetos cliente, contato e endereco
 cli = Cliente(id_=None, cadastro=None, nome_razao="juju", cpf_cnpj="123344", tipo="juri", contatos=None, enderecos=None)
+
 cont = Contato(id_=None, cadastro=None, nome="macela", email="marcella@1223", telefone="223344")
+
 end = Endereco(id_=None, cadastro=None, rua="catira", numero="12349", bairro="jardi")
 print("PASSOU NO TESTE 2")
 
